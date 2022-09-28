@@ -1,0 +1,17 @@
+h1{text-align:center;
+    font-weight: 400;
+    text-decoration:red wavy underline;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* This is normal font weight  */
+/* In font family, each font followed by the comma will choose on that is compatible with your computer.  */
+p{text-align: right;
+    line-height: 2;
+    
+    }
+    /* changes space  size in between the text */
+
+    a{text-decoration: none;} 
+    /* removes decoration from something thats unwanted */
