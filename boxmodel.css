@@ -1,0 +1,38 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color:aqua;
+}
+/*  used for the content inside the box */
+
+h1{background-color: blanchedalmond;}
+/* see this page on h1 for exaple */
+
+#one {
+    background-color: darkgray;
+    border: 5px;
+    border-color: black;
+    border-style:solid ;
+    /* box-sizing: border-box;   */
+}
+/* Border box with box size changes the element to meet the requirements of 200px instead of the 210 with border. */
+
+#two{
+    background-color: blueviolet;
+    border-color: chartreuse;
+    border-width: 3px;
+    border-style:dashed ;
+    border-left-width:10px ;
+    border-radius: 15px;
+    
+}
+
+#three { 
+    background-color: darkolivegreen;
+    border: 5px solid salmon;
+    border-radius: 50%;
+}
+/* shorthand for border (width,style,color) */
+
+/* These ID tags overide the original aqua color because they are more specific!! */
+
